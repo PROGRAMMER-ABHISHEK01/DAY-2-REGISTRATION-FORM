@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "poopins",sans-serif;
+    background-color: dodgerblue;
+    cursor: text;
+}
+.Box{
+    width: 40%;
+    height: 90%;
+    background-color: white;
+    border-radius: 50px;
+    border-top-right-radius: 30%;
+    border-bottom-left-radius: 40%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 -10px 10px rgba(74, 245, 148, 0.2),0 15px 15px rgba(227, 233, 229, 0.1),0 -10px -10px 10px rgba(223, 250, 235, 0.2),0 15px 15px 15px rgba(74, 245, 148,0.1),0 -10px 10px rgba(74, 245, 148,0.2),0 15px 15px rgba(239, 255, 246, 0.1),0 -10px -10px 10px rgba(74, 245, 148,0.2),0 15px 15px 15px rgba(74, 245, 148,0.1);
+}
+#heading{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 700;
+    font-family: cursive;
+    letter-spacing: .10px;
+}
+label{
+    margin-left: 20px;
+}
+input{
+    height: 5%;
+    width: 85%;
+    margin-left: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+.phone{
+    width: 40%;
+}
+.dob{
+    width: 40%;
+}
+.birth{
+    position: absolute;
+    top: 210px;
+}
+p{
+    margin-left: 20px;
+}
+.option{
+    width: 3%;
+    margin-top: 10px;
+}
+.male{
+    margin-left: 5px;
+}
+select{
+    margin-left: 20px;
+}
+option{
+    height: 5%;
+    width: 40%;
+    border-radius: 10px;
+}
+button{
+    margin-top: 30px;
+    width: 30%;
+    height: 40px;
+    background-color: dodgerblue;
+    border: none;
+    color: white;
+    margin-left: 35%;
+    border-radius: 3px;
+    transition: .5s;
+}
+button:hover{
+    background-color: black;
+  box-shadow: 10px 10px 5px rgb(6, 7, 6);
+  cursor: pointer;
+}
+.call{
+    margin-top: 60px;
+    text-align: center;
+    color: dodgerblue;
+    margin: 10px;
+}
+.footer{
+    margin-top: 60px;
+    text-align: center;
+    margin-left: 5px;
+    color: dodgerblue;
+}
